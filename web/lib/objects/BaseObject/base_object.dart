@@ -2,10 +2,7 @@ import '../../utils/canvas.dart' show canvas;
 
 class BaseObject {
 
-  int x;
-  int y;
-  int width;
-  int height;
+  int x, y, width, height;
   String color;
 
   BaseObject(this.x, this.y, this.width, this.height, this.color);
